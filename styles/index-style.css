@@ -1,0 +1,147 @@
+/*defs*/
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Poppins&display=swap'); /*Kanit
+Designed by Cadson Demak*/
+
+* {
+    font-family: 'Kanit', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+/*defs*/
+
+
+/*header*/
+
+header {
+    width: 100%;
+    height: 70px;
+    background-color: royalblue;
+}
+
+.header-content {
+    width: 100%;
+    height: 70px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 48.5% 28.5%;
+    justify-content: space-between;
+}
+
+.header-content a:link, a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.index-logo a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.index-logo a:hover {
+    color: antiquewhite;
+}
+
+.index-logo a i {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.index-logo a h1 {
+    font-size: 20px;
+}
+
+.side-menu a:hover {
+    color: antiquewhite;
+}
+
+/*header*/
+
+/*content-align*/
+
+.body-content {
+    display: grid;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.about-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.about-imgs img {
+    width: 600px;
+}
+
+.bottom-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.contact-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 5fr;
+    gap: 5px;
+}
+
+
+
+/*content-align*/
+
+/*content-defs*/
+
+#message-box {
+    padding: 10px;
+    text-overflow: ellipsis;
+    resize: none;
+}
+
+.social-media img {
+    width: 30px;
+}
+
+.send-button {
+    color: white;
+    height: 50px;
+    background-color: royalblue;
+    border: solid rgb(18, 86, 169);
+}
+
+.send-button:hover {
+    background-color: rgb(18, 86, 169);
+}
+
+/*content-defs*/
+
+/*footer*/
+
+footer {
+    width: 100%;
+    height: 100px;
+    display: grid;
+    margin-top: 40px;
+    align-items: center;
+    background-color: royalblue;
+}
+
+.footer-content {
+    margin-left: 20%;
+    margin-right: 20%;
+    color: white;
+}
+
+/*footer*/
