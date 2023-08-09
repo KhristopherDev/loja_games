@@ -20,8 +20,8 @@
             </article>
 
             <article class="side-menu">
-                <a href="">Sobre a Loja</a>
-                <a href="">Contato</a>
+                <a href="#about">Sobre a Loja</a>
+                <a href="#contact">Contato</a>
             </article>
         </section>
     </header>
@@ -30,7 +30,7 @@
 
         <section class="body-store">
 
-            <h2>Bem vindo à Supra Games!</h2>
+            <h2 id="about">Bem vindo à Supra Games!</h2>
 
             <section class="about-content">
 
@@ -55,17 +55,18 @@
 
             </section>
 
-            <section class="bottom-content">
+            <section id="contact" class="bottom-content">
 
-                <article class="contact-content">
+                <form class="contact-content">
                     <p>Contato</p>
                     <p>Fale Conosco</p>
                     <input placeholder="Seu nome" type="text">
-                    <input placeholder="Seu e-mail" type="text">
-                    <input placeholder="Seu telefone (opcional)">
+                    <input placeholder="Seu e-mail" type="email">
+                    <input placeholder="Seu telefone (opcional)" type="number" id="number">
+                    <input type="file">
                     <textarea name="" id="message-box" cols="30" rows="10" placeholder="Sua mensagem"></textarea>
                     <input class="send-button" type="button" value="Enviar">
-                </article>
+                </form>
 
                 <article class="social-media">
                     <p>Nos acompanhe:</p>
